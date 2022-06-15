@@ -1,0 +1,29 @@
+.formbutton{
+    
+
+width: 180px;
+height: 68px;
+left: 832px;
+top: 4108px;
+
+/* gradient */
+
+background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+border-radius: 10px;
+}
+
+.homecontainer{
+    
+    width: 1170px;
+    height: 407px;
+  
+
+    
+    /* light color */
+    
+    background: #DFD7F9;
+    opacity: 0.2;
+    border-radius: 20px 129px 20px 20px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin: auto;
+}

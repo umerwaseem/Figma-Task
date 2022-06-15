@@ -1,0 +1,30 @@
+.footer {
+
+  padding-top: 20px;
+
+}
+/* .row1 {
+  text-align: left;
+} */
+.row2 {
+  text-align: center;
+ 
+}
+.footer2 {
+  
+  height: 100px;
+  text-align: center;
+  
+}
+/* .row3 {
+  padding-top: 15px;
+  justify-content: space-evenly;
+}
+ */
+
+.footer-mid-column{
+  display: flex;
+ justify-content: space-around;
+
+
+}
