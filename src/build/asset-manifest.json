@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.719787d3.css",
+    "main.js": "/static/js/main.3095973a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Traveller1.png": "/static/media/Traveller1.20f27ec639dd3520e3ac.png",
+    "static/media/bookingImg.png": "/static/media/bookingImg.4978ab132dc27110a15a.png",
+    "static/media/backgroungHome.png": "/static/media/backgroungHome.d970150431d7b45b33e7.png",
+    "static/media/dest2.jpg": "/static/media/dest2.f9f77be60d0d4d63a513.jpg",
+    "static/media/dest1.jpg": "/static/media/dest1.9fb80312df563fe07b07.jpg",
+    "static/media/dest3.jpg": "/static/media/dest3.12b69d00ae4bbcd130fa.jpg",
+    "static/media/water-sport.svg": "/static/media/water-sport.8a5864aad3ef9abab28be9a6511d64ab.svg",
+    "static/media/taxi.svg": "/static/media/taxi.e912fbd1c025155a67e799c525308d3a.svg",
+    "static/media/Logo.svg": "/static/media/Logo.92a30d9bcf4238d7301aed4e5347ca41.svg",
+    "static/media/selection.svg": "/static/media/selection.01c84a4be7cfd2af53054cfb7e3bafc6.svg",
+    "index.html": "/index.html",
+    "main.719787d3.css.map": "/static/css/main.719787d3.css.map",
+    "main.3095973a.js.map": "/static/js/main.3095973a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.719787d3.css",
+    "static/js/main.3095973a.js"
+  ]
+}
