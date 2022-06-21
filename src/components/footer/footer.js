@@ -42,14 +42,14 @@ function footer() {
             </Col>
             <Col xs={3}>
               <Container>
-                <Row className="row2">
+                
                   <Col className="col2">
                     <TiSocialFacebook/>
                     <SiInstagram/>
                     <TiSocialTwitter/>
                     <h4>Discover your app</h4>
                   </Col>
-                </Row>
+                
               </Container>
             </Col>
           </Row>

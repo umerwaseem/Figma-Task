@@ -10,3 +10,8 @@
   flex-direction: row;
 }
  */
+.button {
+  background-color: transparent;
+  color: black;
+  border: 1 solid black;
+}

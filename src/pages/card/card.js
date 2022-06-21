@@ -1,4 +1,4 @@
-import "../card/card.css";
+import "./card.css";
 import Card from "react-bootstrap/Card";
 
 import { App, Code, Calendar, Tv } from "react-bootstrap-icons";
