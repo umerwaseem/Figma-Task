@@ -1,5 +1,8 @@
 import React from "react";
 import "./brand.css";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Card from "react-bootstrap/Card";
 import img1 from "../../images/brand1.png";
 import img2 from "../../images/brand2.png";
@@ -7,9 +10,14 @@ import img3 from "../../images/brand3.png";
 import img4 from "../../images/brand4.png";
 import img5 from "../../images/brand5.png";
 const brand = () => {
+
+const cardMAp={
+  
+}
+
   return (
     <div className="containerBrand">
-      <div className="row2">
+      
         {[
           {
             id: 1,
@@ -32,12 +40,19 @@ const brand = () => {
             Img: img5,
           },
         ].map((features) => (
-          <Card className="brand-card">
+          <Container>
+          <Row>
+          <Col>
+            <Card className="brand-card">
             <Card.Img className='brandImg' variant="top" src={features.Img} />
           </Card>
+          </Col>
+          </Row>
+        </Container>
+         
         ))}
       </div>
-    </div>
+  
   );
 };
 

@@ -1,76 +1,66 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
 import "./home4.css";
-
-import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
+import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from "react-bootstrap/Carousel";
+
+import img1 from "../../images/author.png";
+import img2 from "../../images/author2.png";
+import img3 from "../../images/author3.png";
 const home4 = () => {
+  const cardMap = [
+    {
+      id: 1,
+      Img: img1,
+      p: "Khulna, Bangladesh",
+      h2: "Mike taylor",
+      h3: "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
+    },
+    {
+      id: 2,
+      Img: img2,
+      p: "Khulna, Bangladesh",
+      h2: "Mike taylor",
+      h3: "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
+    },
+    {
+      id: 3,
+      Img: img3,
+      p: "Khulna, Bangladesh",
+      h2: "Mike taylor",
+      h3: "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
+    },
+  ];
+
   return (
-    <div className="home4">
+    <Container variant="dark">
       <Row>
-        <Col xs={6} md={4}>
+        <Col>
           <h6>TESTIMONIALS</h6>
           <h2>What People say about us</h2>
         </Col>
-        <Col xs={6} md={4}>
-        <Carousel fade >
-  <Carousel.Item >
-    <img
-      className="caroselImg"
-      src="../../images/author1.png"
-      alt="First slide"
-    />
-   <Card style={{ width: '25rem', height: '25rem' }}>
-  <Card.Body>
-    <Card.Subtitle className="mb-2 text-muted">"Jadoo is recognized as one of the finest travel agency in the world. When it came to planning a trip, I found them to be dependable."</Card.Subtitle>
-    <Card.Title>Kelly Willium</Card.Title>
-    <Card.Text>
-      SKhulna, Bangladesh
-    </Card.Text>
-   </Card.Body>
-</Card>
-  </Carousel.Item>
-  <Carousel.Item >
-    <img
-      className="caroselImg"
-      src="../../images/author2.png"
-      alt="Second slide"
-    />
+        <Col>
+          <Carousel className="CardCarousel" fade>
+            {cardMap.map((features) => (
+              <Carousel.Item>
+                <Card className="testimonial-card">
+                  <Card.Img src={features.Img} />
 
-<Card style={{ width: '18rem', height: '30rem' }}>
-  <Card.Body>
-    <Card.Subtitle className="mb-2 text-muted">"On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."</Card.Subtitle>
-    <Card.Title>Mike taylor</Card.Title>
-    <Card.Text>
-    Lahore, Pakistan
-    </Card.Text>
-    </Card.Body>
-</Card>
-  </Carousel.Item>
-  <Carousel.Item >
-    <img
-      className="caroselImg"
-      src="../../images/author3.png"
-      alt="Third slide"
-    />
-
-<Card style={{ width: '18rem', height: '30rem'}}>
-  <Card.Body>
-    <Card.Subtitle className="mb-2 text-muted">"On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."</Card.Subtitle>
-    <Card.Title>Kelly Willium</Card.Title>
-    <Card.Text>
-    Khulna, Bangladesh
-    </Card.Text>
-   
-  </Card.Body>
-</Card>
-  </Carousel.Item>
-</Carousel>
+                  <Card.Body>
+                    <h3>{features.h3}</h3>
+                    <h2>{features.h2}</h2>
+                    <p>{features.p}</p>
+                  </Card.Body>
+                </Card>
+              </Carousel.Item>
+            ))}
+           
+          </Carousel>
         </Col>
       </Row>
-    </div>
+    </Container>
   );
 };
 

@@ -1,25 +1,16 @@
 import React from "react";
 import "./home.css";
 import { BsFillPlayCircleFill } from "react-icons/bs";
-import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-
 import Travel from "../../images/Traveller1.png";
 import Button from "react-bootstrap/Button";
-
-
-import Logo from '../../Logo.svg'
-import Nav from "react-bootstrap/Nav";
-import NavDropdown from 'react-bootstrap/NavDropdown'
-import Navbar from "react-bootstrap/Navbar";
 
 function home() {
   return (
     <div classname="containerHome">
-     
-      <Row classname='homeRow'>
+      <Row classname="homeRow">
         <Col className="col1">
           <Row>
             <h4>Best Destinations around the world</h4>

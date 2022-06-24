@@ -3,7 +3,6 @@ import Logo from '../../Logo.svg'
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 
 import Button from 'react-bootstrap/Button'
